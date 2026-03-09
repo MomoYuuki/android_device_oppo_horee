@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2412
 TARGET_SCREEN_WIDTH := 1080
 
+# Commondcs
+PRODUCT_PACKAGES += \
+    vendor.oplus.hardware.commondcs-service
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.horee.hw.rc \
@@ -47,9 +51,20 @@ PRODUCT_PACKAGES += \
 # Oplus camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
+# Osense
+PRODUCT_PACKAGES += \
+    vendor.oplus.hardware.osense.client-service
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare-service.oplus
+
+# IR Blaster
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.ir-service.oplus
     
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
