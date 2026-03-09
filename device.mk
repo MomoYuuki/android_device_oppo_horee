@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
 # Oplus camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
+# PowerShare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare-service.oplus
+    
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
