@@ -346,17 +346,13 @@
          appended after the path string to interpret coordinates in dp instead of px units.
          Note that a physical cutout should be configured in pixels for the best results.
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -407 68.5
-        A 34 34 0 0 1 -475 68.5
-        A 34 34 0 0 1 -407 68.5
+     <string translatable="false" name="config_mainBuiltInDisplayCutout">
+        M 154,83
+        M 111,83
+        A 43,43 0 1,0 197,83
+        A 43,43 0 1,0 111,83
         Z
-        M -475,0
-        L -407,0
-        Z
-        M -540,0
-        L -540,102.5
-        Z
+        @left
     </string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
@@ -367,8 +363,8 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M 0,0
-        H 164
-        V 123
+        H 236
+        V 152
         H 0
         Z
         @left
@@ -397,9 +393,9 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-        <item>540</item>  <!-- <item>sensorLocationX</item> -->
-        <item>1897</item> <!-- <item>sensorLocationY</item> -->
-        <item>95</item>   <!-- <item>sensorRadius</item> -->
+        <item>720</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2944</item> <!-- <item>sensorLocationY</item> -->
+        <item>124</item>  <!-- <item>sensorRadius</item> -->
     </integer-array>
 
 </resources>
