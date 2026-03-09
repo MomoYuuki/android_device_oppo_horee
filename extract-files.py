@@ -14,8 +14,8 @@ namespace_imports = [
 ]
 
 module = ExtractUtilsModule(
-    'lemonades',
-    'oneplus',
+    'horee',
+    'oppo',
     namespace_imports=namespace_imports,
 )
 
