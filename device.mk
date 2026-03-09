@@ -21,6 +21,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Device init scripts
 PRODUCT_PACKAGES += \
+    init.horee.hw.rc \
+    init.horee.hw.rc.recovery \
     fstab.qcom \
     fstab.qcom.ramdisk
 

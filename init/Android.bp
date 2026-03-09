@@ -3,6 +3,21 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+cc_library_static {
+    name: "libinit_horee",
+    recovery_available: true,
+    shared_libs: ["libbase"],
+    srcs: ["init_horee.cpp"],
+}
+
+prebuilt_etc {
+    name: "init.horee.hw.rc",
+    src: "init.horee.hw.rc",
+    sub_dir: "init",
+    device_specific: true,
+    recovery_available: true,
+}
+
 prebuilt_etc {
     name: "fstab.qcom",
     src: "fstab.qcom",
