@@ -347,16 +347,12 @@
          Note that a physical cutout should be configured in pixels for the best results.
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -407 68.5
-        A 34 34 0 0 1 -475 68.5
-        A 34 34 0 0 1 -407 68.5
+        M 154,83
+        M 111,83
+        A 43,43 0 1,0 197,83
+        A 43,43 0 1,0 111,83
         Z
-        M -475,0
-        L -407,0
-        Z
-        M -540,0
-        L -540,102.5
-        Z
+        @left
     </string>
 
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
@@ -367,8 +363,8 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M 0,0
-        H 164
-        V 123
+        H 236
+        V 152
         H 0
         Z
         @left

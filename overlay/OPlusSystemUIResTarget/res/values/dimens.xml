@@ -6,17 +6,17 @@
 <resources>
 
     <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
-    <dimen name="config_rounded_mask_size">97px</dimen>
+    <dimen name="config_rounded_mask_size">156px</dimen>
 
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
          relies on this value will not be sized correctly. -->
-    <item name="pixel_pitch" format="float" type="dimen">63.22</item>
+    <item name="pixel_pitch" format="float" type="dimen">48.3</item>
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">0px</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">8px</dimen>
+    <dimen name="status_bar_padding_end">35px</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">11px</dimen>
