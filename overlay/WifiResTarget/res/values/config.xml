@@ -6,6 +6,6 @@
 <resources>
 
     <!-- Default access point SSID used for tethering -->
-    <string name="wifi_tether_configure_ssid_default" translatable="false">realme GT Neo 2</string>
+    <string name="wifi_tether_configure_ssid_default" translatable="false">OPPO Find X3</string>
 
 </resources>
