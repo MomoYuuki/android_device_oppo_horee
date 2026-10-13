@@ -1,1 +1,1 @@
-require board=kona|RMX3370
+require board=kona|PEDM00

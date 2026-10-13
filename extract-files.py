@@ -10,15 +10,15 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/realme/bitra',
+    'device/oppo/horee',
     'device/realme/sm8250-common',
     'hardware/oplus',
     'vendor/realme/sm8250-common',
 ]
 
 module = ExtractUtilsModule(
-    'bitra',
-    'realme',
+    'horee',
+    'oppo',
     namespace_imports=namespace_imports,
 )
 

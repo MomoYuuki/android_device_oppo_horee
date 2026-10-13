@@ -7,10 +7,10 @@
 # Include the common OEM chipset BoardConfig.
 include device/realme/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/realme/bitra
+DEVICE_PATH := device/oppo/horee
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,bitra
+TARGET_OTA_ASSERT_DEVICE := PEDM00,OP4E5D,horee
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -33,4 +33,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/realme/bitra/BoardConfigVendor.mk
+include vendor/oppo/horee/BoardConfigVendor.mk
